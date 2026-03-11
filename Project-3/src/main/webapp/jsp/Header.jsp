@@ -234,7 +234,7 @@
 						</a>
 					</div></li>
 
-				<li class="nav-item dropdown" style="padding-left: 5px"><a
+				<%-- <li class="nav-item dropdown" style="padding-left: 5px"><a
 					class="nav-link dropdown-toggle" href="#" id="dispatchDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
 					aria-expanded="false"> <font style="color: white;">Dispatch</font>
@@ -263,6 +263,22 @@
 						</a>
 
 					</div></li>
+					
+					<li class="nav-item dropdown" style="padding-left: 5px"><a
+					class="nav-link dropdown-toggle" href="#" id="podcastDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: white;">Podcast</font>
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="transportDropdown">
+
+						<a class="dropdown-item" href="<%=ORSView.PODCAST_CTL%>"> <i
+							class="fa fa-truck"></i> Add Podcast
+						</a> <a class="dropdown-item" href="<%=ORSView.PODCAST_LIST_CTL%>">
+							<i class="fa fa-list"></i> Podcast List
+						</a>
+
+					</div></li> --%>
 
 				<%
 					}

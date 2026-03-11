@@ -29,6 +29,18 @@ public final class ModelFactory {
 		return mFactory;
 	}
 
+	public PodcastModelInt getPodcastModel() {
+
+		PodcastModelInt podcastModel = (PodcastModelInt) modelCache.get("podcastModel");
+		if (podcastModel == null) {
+			if ("Hibernate".equals(DATABASE)) {
+				podcastModel = new PodcastModelHibImpl();
+			}
+			modelCache.put("podcastModel", podcastModel);
+		}
+		return podcastModel;
+	}
+
 	public TransportModelInt getTransportModel() {
 
 		TransportModelInt transportModel = (TransportModelInt) modelCache.get("transportModel");

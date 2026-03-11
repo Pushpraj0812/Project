@@ -84,6 +84,10 @@ public interface ORSView {
 
 	public String TRANSPORT_LIST_VIEW = PAGE_FOLDER + "/TransportListView.jsp";
 
+	public String PODCAST_VIEW = PAGE_FOLDER + "/PodcastView.jsp";
+
+	public String PODCAST_LIST_VIEW = PAGE_FOLDER + "/PodcastListView.jsp";
+
 	public String ERROR_CTL = APP_CONTEXT + "/ErrorCtl";
 
 	public String MARKSHEET_CTL = APP_CONTEXT + "/ctl/MarksheetCtl";
@@ -153,5 +157,9 @@ public interface ORSView {
 	public String TRANSPORT_CTL = APP_CONTEXT + "/ctl/TransportCtl";
 
 	public String TRANSPORT_LIST_CTL = APP_CONTEXT + "/ctl/TransportListCtl";
+
+	public String PODCAST_CTL = APP_CONTEXT + "/ctl/PodcastCtl";
+
+	public String PODCAST_LIST_CTL = APP_CONTEXT + "/ctl/PodcastListCtl";
 
 }
