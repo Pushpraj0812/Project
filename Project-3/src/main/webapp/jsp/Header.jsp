@@ -220,7 +220,7 @@
 							List</a>
 					</div></li>
 
-				<li class="nav-item dropdown" style="padding-left: 5px"><a
+			<%--	<li class="nav-item dropdown" style="padding-left: 5px"><a
 					class="nav-link dropdown-toggle" href="#" id="sessionDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
 					aria-expanded="false"> <font style="color: white;">Session</font>
@@ -234,7 +234,7 @@
 						</a>
 					</div></li>
 
-				<%-- <li class="nav-item dropdown" style="padding-left: 5px"><a
+				 <li class="nav-item dropdown" style="padding-left: 5px"><a
 					class="nav-link dropdown-toggle" href="#" id="dispatchDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
 					aria-expanded="false"> <font style="color: white;">Dispatch</font>
